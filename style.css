@@ -1,0 +1,34 @@
+body {
+  background-image: url('header.jpg');
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif'
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  height: 850px;
+}
+
+.learn-more {
+  background-color: red;
+  padding: 10px 20px;
+  margin-top: 30px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.learn-more:hover {
+  background-color: white;
+  color: red;
+}
